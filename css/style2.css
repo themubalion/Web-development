@@ -1,0 +1,15 @@
+li:first-child{
+    color: rgb(47, 106, 106);
+}
+
+li:nth-child(3){
+    color: red;
+}
+
+li:last-child{
+    color: brown;
+}
+
+li:only-child{
+    color: blueviolet;
+}

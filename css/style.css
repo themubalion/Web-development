@@ -1,0 +1,24 @@
+body{
+    background-color:antiquewhite;
+}
+
+a{
+    text-decoration: none;   
+}
+
+h1{
+    color: blueviolet;
+}
+
+/* this is hover pseudo selector */
+a:hover{
+    color: red;
+}
+
+/* Some pseudo selectors:
+Hover: it works when somebody hover over that element.
+first-child: The first child pseudo selector works for the first element of that thing.
+last-child: This is the same as first child except it works for the last element.
+nth-child(n): It will work for the nth element that you will define.
+only-child: You can understand it by its name.
+*/
