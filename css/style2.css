@@ -1,3 +1,25 @@
+h3{
+    text-align: center;
+}
+
+a {
+    text-decoration:none ;
+}
+
+a:hover {
+    color: red;
+}
+
+header{
+    background-color: rgb(124, 120, 118);
+}
+
+footer  {
+    background-image: url(img1.jpg);
+    background-size:cover;
+}
+
+
 li:first-child{
     color: rgb(47, 106, 106);
 }
@@ -12,4 +34,17 @@ li:last-child{
 
 li:only-child{
     color: blueviolet;
+}
+
+
+/* Below is the child selectore that is in advance selectors. */
+
+ul > li:hover{
+    color: black;
+}
+
+/* Below is attribute selector from CSS */
+
+h2[class=module]:hover{
+    color: blue;
 }
